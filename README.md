@@ -111,8 +111,8 @@ Download
 
 Download via Gradle:
 ```groovy
-compile 'com.raycoarana.tesela:tesela-library:0.0.1'
-apt 'com.raycoarana.tesela:tesela-compiler:0.0.1'
+compile 'com.raycoarana.tesela:tesela-library:0.0.2'
+apt 'com.raycoarana.tesela:tesela-compiler:0.0.2'
 ```
 
 License

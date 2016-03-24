@@ -3,6 +3,6 @@ apply plugin: 'jacoco'
 apply from: '../scripts/gradle-mvn-push.gradle'
 
 dependencies {
-    compile project(':tesela-library')
+    compile 'com.raycoarana.tesela:tesela-library:' + VERSION_NAME
     compile 'com.squareup:javapoet:1.6.0'
 }
