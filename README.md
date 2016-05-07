@@ -1,5 +1,6 @@
 Tesela
 ======
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Tesela-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3558)
 
 Tesela is a code generate based library that helps you implement Model-View-Presenter pattern
 on Android. It let you annotate methods to make them be executed on UI thread or on a background
@@ -9,7 +10,7 @@ Fragment or Activity anymore while your background work finishes.
 How to use it?
 --------------
 
-The first thing to do is to initialize Tesela providing it a TeselaEecutor implementation.
+The first thing to do is to initialize Tesela providing it a TeselaExecutor implementation.
 That way you can control where background work will be executed, how many threads are created,
 use an standard Java thread pool or other kind of thread pool.
 
